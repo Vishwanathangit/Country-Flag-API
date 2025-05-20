@@ -42,7 +42,6 @@ https://country-flag-api.vercel.app/
 
 
 ## 📦 Installation & Setup
-
 1. Clone the repository:
    git clone https://github.com/Vishwanathangit/Country-Flag-API.git
    cd Country-Flag-API
