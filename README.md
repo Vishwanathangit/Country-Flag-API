@@ -1,16 +1,62 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌍 Country Flag API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that fetches and displays country details like name, flag, capital, region, and population using the [REST Countries API](https://restcountries.com/).
 
-Currently, two official plugins are available:
+## 🔍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a list of all countries with their flags
+- Click on a country to view detailed information
+- Loading indicator while fetching data
+- Responsive and clean UI
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Country-Flag-API
->>>>>>> 157574de141320a8510f6a585b56a748d8f928ae
+https://country-flag-api.vercel.app/
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- React Router DOM
+- REST Countries API
+
+## 📂 Folder Structure
+<pre>
+  ```
+  ├── public/
+├── src/
+│ ├── components/
+│ │ └── Loading.jsx
+│ ├── pages/
+│ │ ├── CountryList.jsx
+│ │ └── CountryDetails.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+  ```
+</pre>
+
+
+## 📦 Installation & Setup
+1. Clone the repository:
+   git clone https://github.com/Vishwanathangit/Country-Flag-API.git
+   cd Country-Flag-API
+   
+2.Install dependencies:
+  npm install
+
+3.Run the development server:
+  npm run dev
+
+## 🧠 Learnings
+React routing and dynamic URL parameters
+
+Fetching and displaying API data
+
+Handling loading and error states
+
+Component-based UI structure
